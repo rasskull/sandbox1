@@ -727,16 +727,28 @@ h1, h2, h3, h4, h5 {
 
 /* line 25, ../scss/base/_headings.scss */
 .h-7 {
-  font-size: 42px;
+  font-size: 30px;
   color: #fff;
   margin-bottom: 10px;
 }
+@media (min-width: 64em) {
+  /* line 25, ../scss/base/_headings.scss */
+  .h-7 {
+    font-size: 42px;
+  }
+}
 
-/* line 31, ../scss/base/_headings.scss */
+/* line 35, ../scss/base/_headings.scss */
 .h-8 {
-  font-size: 62px;
+  font-size: 50px;
   color: #fff;
   margin-bottom: 10px;
+}
+@media (min-width: 64em) {
+  /* line 35, ../scss/base/_headings.scss */
+  .h-8 {
+    font-size: 62px;
+  }
 }
 
 /* Links */
@@ -872,32 +884,32 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
   padding: 40px 0;
 }
 @media (min-width: 48em) {
-  /* line 9, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+1) {
+  /* line 10, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+1) {
     width: 23.25581%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
   }
-  /* line 10, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+2) {
+  /* line 13, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+2) {
     width: 23.25581%;
     float: left;
     margin-right: -100%;
     margin-left: 25.5814%;
     clear: none;
   }
-  /* line 11, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+3) {
+  /* line 16, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+3) {
     width: 23.25581%;
     float: left;
     margin-right: -100%;
     margin-left: 51.16279%;
     clear: none;
   }
-  /* line 12, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+4) {
+  /* line 19, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+4) {
     width: 23.25581%;
     float: right;
     margin-left: 0;
@@ -906,25 +918,19 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
     border-right: none;
   }
 }
-@media (min-width: 48em) {
-  /* line 1, ../scss/components/_stat-bar.scss */
-  .stat-bar {
-    margin: 0 -20px;
-  }
-}
 
-/* line 21, ../scss/components/_stat-bar.scss */
+/* line 30, ../scss/components/_stat-bar.scss */
 .stat-bar__col {
   padding: 10px;
   height: 100%;
   border-bottom: 1px solid #f67c42;
 }
-/* line 30, ../scss/components/_stat-bar.scss */
+/* line 39, ../scss/components/_stat-bar.scss */
 .stat-bar__col:last-child {
   border-bottom: none;
 }
 @media (min-width: 48em) {
-  /* line 21, ../scss/components/_stat-bar.scss */
+  /* line 30, ../scss/components/_stat-bar.scss */
   .stat-bar__col {
     padding: 0 20px 0 0;
     border-right: 1px solid #f67c42;
@@ -1299,16 +1305,28 @@ h1, h2, h3, h4, h5 {
 
 /* line 25, ../scss/base/_headings.scss */
 .h-7 {
-  font-size: 42px;
+  font-size: 30px;
   color: #fff;
   margin-bottom: 10px;
 }
+@media (min-width: 64em) {
+  /* line 25, ../scss/base/_headings.scss */
+  .h-7 {
+    font-size: 42px;
+  }
+}
 
-/* line 31, ../scss/base/_headings.scss */
+/* line 35, ../scss/base/_headings.scss */
 .h-8 {
-  font-size: 62px;
+  font-size: 50px;
   color: #fff;
   margin-bottom: 10px;
+}
+@media (min-width: 64em) {
+  /* line 35, ../scss/base/_headings.scss */
+  .h-8 {
+    font-size: 62px;
+  }
 }
 
 /* Links */
@@ -1426,32 +1444,32 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
   padding: 40px 0;
 }
 @media (min-width: 48em) {
-  /* line 9, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+1) {
+  /* line 10, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+1) {
     width: 23.25581%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
   }
-  /* line 10, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+2) {
+  /* line 13, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+2) {
     width: 23.25581%;
     float: left;
     margin-right: -100%;
     margin-left: 25.5814%;
     clear: none;
   }
-  /* line 11, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+3) {
+  /* line 16, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+3) {
     width: 23.25581%;
     float: left;
     margin-right: -100%;
     margin-left: 51.16279%;
     clear: none;
   }
-  /* line 12, ../scss/components/_stat-bar.scss */
-  .stat-bar .stat-bar__col:nth-of-type(4n+4) {
+  /* line 19, ../scss/components/_stat-bar.scss */
+  .stat-bar .wrapper-inner-2 .stat-bar__col:nth-of-type(4n+4) {
     width: 23.25581%;
     float: right;
     margin-left: 0;
@@ -1460,25 +1478,19 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
     border-right: none;
   }
 }
-@media (min-width: 48em) {
-  /* line 1, ../scss/components/_stat-bar.scss */
-  .stat-bar {
-    margin: 0 -20px;
-  }
-}
 
-/* line 21, ../scss/components/_stat-bar.scss */
+/* line 30, ../scss/components/_stat-bar.scss */
 .stat-bar__col {
   padding: 10px;
   height: 100%;
   border-bottom: 1px solid #f67c42;
 }
-/* line 30, ../scss/components/_stat-bar.scss */
+/* line 39, ../scss/components/_stat-bar.scss */
 .stat-bar__col:last-child {
   border-bottom: none;
 }
 @media (min-width: 48em) {
-  /* line 21, ../scss/components/_stat-bar.scss */
+  /* line 30, ../scss/components/_stat-bar.scss */
   .stat-bar__col {
     padding: 0 20px 0 0;
     border-right: 1px solid #f67c42;
