@@ -934,12 +934,13 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
 
 /* line 1, ../scss/components/_stepbox.scss */
 .stepbox {
-  background: #fff;
+  background: #fff url(../images/bg-stepbox-sprite.jpg) no-repeat center -297px;
   padding: 15px 32px 15px 32px;
   position: relative;
   margin: 0 0 20px 0;
+  min-height: 210px;
 }
-/* line 7, ../scss/components/_stepbox.scss */
+/* line 8, ../scss/components/_stepbox.scss */
 .stepbox:after {
   content: "";
   position: absolute;
@@ -952,13 +953,13 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
   border-color: #ffffff transparent transparent transparent;
 }
 @media (min-width: 40em) {
-  /* line 7, ../scss/components/_stepbox.scss */
+  /* line 8, ../scss/components/_stepbox.scss */
   .stepbox:after {
     left: 48%;
   }
 }
 @media (min-width: 48em) {
-  /* line 7, ../scss/components/_stepbox.scss */
+  /* line 8, ../scss/components/_stepbox.scss */
   .stepbox:after {
     bottom: auto;
     left: auto;
@@ -977,18 +978,26 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
 }
 
 @media (min-width: 48em) {
-  /* line 38, ../scss/components/_stepbox.scss */
+  /* line 39, ../scss/components/_stepbox.scss */
   .stepbox__wrapper {
     float: left;
     width: 33.3%;
   }
 }
-/* line 48, ../scss/components/_stepbox.scss */
+/* line 47, ../scss/components/_stepbox.scss */
+.stepbox__wrapper:first-child .stepbox {
+  background-position: center 29px;
+}
+/* line 54, ../scss/components/_stepbox.scss */
+.stepbox__wrapper:last-child .stepbox {
+  background-position: center -598px;
+}
+/* line 57, ../scss/components/_stepbox.scss */
 .stepbox__wrapper:last-child .stepbox:after {
   border: none;
 }
 
-/* line 55, ../scss/components/_stepbox.scss */
+/* line 64, ../scss/components/_stepbox.scss */
 .stepbox p {
   color: #808080;
   font-size: 13px;
@@ -996,7 +1005,7 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
   margin-top: 10px;
 }
 
-/* line 62, ../scss/components/_stepbox.scss */
+/* line 71, ../scss/components/_stepbox.scss */
 h4, .stepbox h4 a {
   color: #f26522;
   font-size: 24px;
@@ -1395,7 +1404,7 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
 /* line 21, ../scss/components/_homepage-content.scss */
 .mod-banner_2 {
   background-color: #000;
-  background-image: url(../../images/homepage-bg.jpg);
+  background-image: url(http://rasskull.github.io/sandbox1/images/homepage-bg.jpg);
   background-size: 150% auto;
 }
 @media (min-width: 40em) {
@@ -1479,12 +1488,13 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
 
 /* line 1, ../scss/components/_stepbox.scss */
 .stepbox {
-  background: #fff;
+  background: #fff url(../images/bg-stepbox-sprite.jpg) no-repeat center -297px;
   padding: 15px 32px 15px 32px;
   position: relative;
   margin: 0 0 20px 0;
+  min-height: 210px;
 }
-/* line 7, ../scss/components/_stepbox.scss */
+/* line 8, ../scss/components/_stepbox.scss */
 .stepbox:after {
   content: "";
   position: absolute;
@@ -1497,13 +1507,13 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
   border-color: #ffffff transparent transparent transparent;
 }
 @media (min-width: 40em) {
-  /* line 7, ../scss/components/_stepbox.scss */
+  /* line 8, ../scss/components/_stepbox.scss */
   .stepbox:after {
     left: 48%;
   }
 }
 @media (min-width: 48em) {
-  /* line 7, ../scss/components/_stepbox.scss */
+  /* line 8, ../scss/components/_stepbox.scss */
   .stepbox:after {
     bottom: auto;
     left: auto;
@@ -1522,18 +1532,26 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
 }
 
 @media (min-width: 48em) {
-  /* line 38, ../scss/components/_stepbox.scss */
+  /* line 39, ../scss/components/_stepbox.scss */
   .stepbox__wrapper {
     float: left;
     width: 33.3%;
   }
 }
-/* line 48, ../scss/components/_stepbox.scss */
+/* line 47, ../scss/components/_stepbox.scss */
+.stepbox__wrapper:first-child .stepbox {
+  background-position: center 29px;
+}
+/* line 54, ../scss/components/_stepbox.scss */
+.stepbox__wrapper:last-child .stepbox {
+  background-position: center -598px;
+}
+/* line 57, ../scss/components/_stepbox.scss */
 .stepbox__wrapper:last-child .stepbox:after {
   border: none;
 }
 
-/* line 55, ../scss/components/_stepbox.scss */
+/* line 64, ../scss/components/_stepbox.scss */
 .stepbox p {
   color: #808080;
   font-size: 13px;
@@ -1541,7 +1559,7 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
   margin-top: 10px;
 }
 
-/* line 62, ../scss/components/_stepbox.scss */
+/* line 71, ../scss/components/_stepbox.scss */
 h4, .stepbox h4 a {
   color: #f26522;
   font-size: 24px;
