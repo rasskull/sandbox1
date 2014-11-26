@@ -850,7 +850,7 @@ a.btn-scroll-down, a.btn-scroll-up, a.btn-email, a.btn-close-2, a.btn-close, a.b
 /* line 21, ../scss/components/_homepage-content.scss */
 .mod-banner_2 {
   background-color: #000;
-  background-image: url(images/homepage-bg.jpg);
+  background-image: url(http://rasskull.github.io/sandbox1/images/homepage-bg.jpg);
   background-size: 150% auto;
 }
 @media (min-width: 40em) {
