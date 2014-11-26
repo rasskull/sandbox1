@@ -734,7 +734,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 64em) {
   /* line 25, ../scss/base/_headings.scss */
   .h-7 {
-    font-size: 42px;
+    font-size: 40px;
   }
 }
 
@@ -1312,7 +1312,7 @@ h1, h2, h3, h4, h5 {
 @media (min-width: 64em) {
   /* line 25, ../scss/base/_headings.scss */
   .h-7 {
-    font-size: 42px;
+    font-size: 40px;
   }
 }
 
